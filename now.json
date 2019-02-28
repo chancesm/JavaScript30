@@ -1,3 +1,6 @@
 {
-  "name" : "chancesm-js30"
+  "name" : "chancesm-js30",
+  "builds": [
+    { "src": "*", "use": "@now/static" }
+  ]
 }
