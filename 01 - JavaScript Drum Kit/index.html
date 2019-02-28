@@ -75,7 +75,7 @@
     key.addEventListener("transitionend", removeTransition);    
   });
   function removeTransition(e) {
-    if (e.propertyname !== 'transform') return;
+    if (e.propertyName !== 'transform') return;
     this.classList.remove("playing");
   }
 </script>
